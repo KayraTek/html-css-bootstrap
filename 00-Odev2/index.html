@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+
+    <style>
+        table {
+            align-content: center;
+            width: 1000px;
+            background-color: aliceblue;
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            box-shadow: 5px 7px 30px lightblue;
+        }
+        .hobi_box{
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="database.php">
+        <table>
+            <thead>
+
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>
+                        <label for="ad">Adınız</label>
+
+                    </td>
+                    <td>
+                        <p>
+                            <input id="ad" name="ad" type="text" placeholder="Adınızı giriniz." required />
+                        </p>
+                    </td>
+
+                    <td>
+                        <label for="hobiler">Hobiler</label>
+
+                    </td>
+                    <td rowspan="2" class="hobi_box">
+                        <input type="checkbox" name="futbol" id="futbol" value="futbol">
+                        <label for="futbol">Futbol</label>
+                        <br>
+                        <input type="checkbox" name="voleybol" id="voleybol" value="voleybol">
+                        <label for="voleybol">Voleybol</label>
+                        <br>
+                        <input type="checkbox" name="basketbol" id="basketbol" value="basketbol">
+                        <label for="basketbol">Basketbol</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="soyad">Soyadi</label>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="text" id="soyad" value="" placeholder="Soyadinizi giriniz..">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cinsiyet">Cinsiyet</label>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="radio" name="cinsiyet" id="erkek">
+                            <label for="erkek">Bay</label>
+                            <input type="radio" name="cinsiyet" id="kadin">
+                            <label for="kadin">Bayan</label>
+                        </p>
+                    </td>
+
+                    <td>
+                        <label for="profil">Profil Fotografi</label>
+                    </td>
+                    <td>
+                        <input type="file" name="profil" id="profil">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ilce">Ilce</label>
+                    </td>
+                    <td>
+                        <p>
+
+                            <select name="ilce" id="ilce">
+                                <option value="1">Istanbul</option>
+                                <option value="2">Ankara</option>
+                                <option value="3">Eskisehir</option>
+                                <option value="4">Izmir</option>
+                                <option value="5">Antalya</option>
+                            </select>
+                        </p>
+                    </td>
+                    <td>
+                        <label for="dogum_tarihi">Dogum Tarihi</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dogum_tarihi" id="dogum_tarihi">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="eposta">Eposta</label>
+                    </td>
+                    <td>
+                        <p>
+
+                            <input type="email" name="mail" id="eposta">
+                        </p>
+                    </td>
+                    <td>
+                        <label for="adres">Adres</label>
+                    </td>
+                    <td rowspan="2">
+                        <textarea name="adres" id="adres" cols="30" rows="5"></textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="site">Kisisel Site</label>
+                    </td>
+                    <td>
+                        <p>
+
+                            <input type="url" name="site" id="site">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefon">Telefon Numaraniz</label>
+
+                    </td>
+                    <td>
+                        <p>
+                            <input type="text" name="telefon" id="telefon">
+                        </p>
+                    </td>
+                    <td></td>
+                    <td><button type="submit" style="width: 150px; height: 40px;">Kayit Ol</button></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
