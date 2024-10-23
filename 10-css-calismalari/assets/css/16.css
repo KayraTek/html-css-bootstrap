@@ -1,0 +1,10 @@
+.fa-whatsapp{
+    font-size: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: rgb(118, 191, 9)
+}
+.fa-whatsapp:hover{
+    font-size: 45px;
+}

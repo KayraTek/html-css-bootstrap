@@ -1,0 +1,24 @@
+.kutu{
+    background-color: red;
+    text-align: center;
+}
+.kutu b{
+    background-color: blue;
+    color: white;
+}
+span{
+    background-color: aqua;
+}
+div{
+    background-color: blueviolet;
+}
+
+.kutu2{
+    background-color: red;
+    text-align: center;
+}
+.kutu2 p{
+    background-color: blue;
+    width: 200px;
+    text-align: center;
+}
